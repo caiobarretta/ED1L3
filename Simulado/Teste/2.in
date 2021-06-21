@@ -1,0 +1,24 @@
+10
+adiciona_nota 0.0
+adiciona_nota 1.0
+adiciona_nota 2.0
+adiciona_nota 3.0
+adiciona_nota 4.0
+imprime_notas
+adiciona_pontos_extras 1 0.5
+adiciona_pontos_extras 3 3.0
+adiciona_pontos_extras 8 2.5
+imprime_notas
+adiciona_nota 5.0
+adiciona_nota 6.0
+adiciona_nota 7.0
+adiciona_nota 8.0
+adiciona_nota 9.0
+imprime_notas
+adiciona_pontos_extras 15 2.5
+adiciona_pontos_extras 20 2.5
+imprime_notas
+adiciona_pontos_extras -1 1.0
+adiciona_pontos_extras -10 3.5
+imprime_notas
+para

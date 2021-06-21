@@ -1,0 +1,20 @@
+10
+adiciona_nota 0.0
+adiciona_nota 1.1
+adiciona_nota 2.2
+adiciona_nota 3.3
+adiciona_nota 4.4
+imprime_notas
+adiciona_nota -5.0
+adiciona_nota 5.5
+adiciona_nota 11.0
+imprime_notas
+adiciona_nota 6.6
+adiciona_nota 7.7
+adiciona_nota 8.8
+adiciona_nota 9.9
+imprime_notas
+adiciona_nota 10.0
+adiciona_nota 11.0
+imprime_notas
+para

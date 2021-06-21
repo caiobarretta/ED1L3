@@ -1,0 +1,30 @@
+10
+adiciona_nota 12
+adiciona_nota 2
+adiciona_nota 2
+adiciona_nota -1
+imprime_notas
+adiciona_nota 8
+adiciona_nota 2
+adiciona_pontos_extras 1 0.5
+adiciona_nota 3
+adiciona_nota 5
+imprime_notas
+imprime_media_turma
+imprime_desvio_padrao_turma
+adiciona_nota 2
+adiciona_nota 2
+adiciona_pontos_extras 1 0.5
+adiciona_nota 9
+adiciona_nota 8
+adiciona_nota 3
+adiciona_pontos_extras -1 2.5
+imprime_notas
+imprime_media_turma
+imprime_desvio_padrao_turma
+adiciona_nota 3
+adiciona_nota 8
+imprime_notas
+imprime_media_turma
+imprime_desvio_padrao_turma
+para

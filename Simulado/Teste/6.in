@@ -1,0 +1,56 @@
+20
+adiciona_nota 3
+adiciona_nota -2
+adiciona_nota 0
+adiciona_nota 7
+imprime_notas
+imprime_media_turma
+imprime_desvio_padrao_turma
+adiciona_pontos_extras 1 0.5
+adiciona_pontos_extras 3 3.0
+adiciona_pontos_extras 8 2.5
+imprime_notas
+imprime_media_turma
+imprime_desvio_padrao_turma
+adiciona_nota 0
+adiciona_nota 1
+adiciona_nota 10
+adiciona_nota -1
+adiciona_nota 11
+adiciona_nota 6
+adiciona_nota 8
+adiciona_nota 7
+imprime_notas
+imprime_media_turma
+imprime_desvio_padrao_turma
+adiciona_pontos_extras -1 1.0
+adiciona_pontos_extras -1 3.0
+imprime_notas
+imprime_media_turma
+imprime_desvio_padrao_turma
+adiciona_nota 4
+adiciona_nota 6
+adiciona_nota 11
+adiciona_nota 10
+adiciona_nota 3
+adiciona_nota 5
+adiciona_nota 6
+adiciona_nota 5
+imprime_notas
+imprime_media_turma
+imprime_desvio_padrao_turma
+adiciona_pontos_extras 8 0.5
+adiciona_pontos_extras 12 0.5
+adiciona_pontos_extras 15 0.5
+imprime_notas
+imprime_media_turma
+imprime_desvio_padrao_turma
+adiciona_nota 11
+adiciona_nota 7
+adiciona_nota 13
+adiciona_nota 8
+adiciona_nota 8
+imprime_notas
+imprime_media_turma
+imprime_desvio_padrao_turma
+para

@@ -1,0 +1,35 @@
+9
+912 Harry_Potter 3.5
+123 Ivete_Sangalo 7.8
+457 Pumba 6.0
+229 Simba 3.2
+647 Geremias_Vasconcelos 3.0
+616 Mickey_Mouse 7.8
+622 Margot_Robbie 7.5
+109 Joao_das_Neves 4.3
+101 Fausto_Silva 5.8
+imprime_alunos
+imprime_aluno_maior_nota
+adiciona_pontos_extras 2 2.0
+inverte_alunos
+adiciona_pontos_extras 3 0.2
+imprime_alunos
+imprime_aluno_maior_nota
+adiciona_pontos_extras -1 1.0
+adiciona_pontos_extras 4 0.5
+inverte_alunos
+adiciona_pontos_extras 4 0.5
+adiciona_pontos_extras 8 2.2
+adiciona_pontos_extras 9 2.2
+imprime_alunos
+imprime_aluno_maior_nota
+inverte_alunos
+adiciona_pontos_extras 0 -0.1
+imprime_alunos
+imprime_aluno_maior_nota
+inverte_alunos
+adiciona_pontos_extras 5 3.0
+adiciona_pontos_extras -1 -6.0
+imprime_alunos
+imprime_aluno_maior_nota
+para

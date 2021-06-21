@@ -1,0 +1,40 @@
+----
+Quantidade de Alunos: 3
+
+- Aluno 0 - nota: 2.00
+- Aluno 1 - nota: 2.00
+- Aluno 2 - nota: 5.00
+----
+
+****
+A nota média da turma é: 3.00
+****
+
+----
+Quantidade de Alunos: 4
+
+- Aluno 0 - nota: 2.00
+- Aluno 1 - nota: 2.00
+- Aluno 2 - nota: 5.00
+- Aluno 3 - nota: 2.00
+----
+
+****
+A nota média da turma é: 2.75
+****
+
+----
+Quantidade de Alunos: 6
+
+- Aluno 0 - nota: 2.00
+- Aluno 1 - nota: 2.00
+- Aluno 2 - nota: 5.00
+- Aluno 3 - nota: 2.00
+- Aluno 4 - nota: 3.00
+- Aluno 5 - nota: 4.00
+----
+
+****
+A nota média da turma é: 3.00
+****
+

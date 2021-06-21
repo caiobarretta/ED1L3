@@ -1,0 +1,40 @@
+----
+Quantidade de Alunos: 3
+
+- Aluno 0 - nota: 2.00
+- Aluno 1 - nota: 2.00
+- Aluno 2 - nota: 5.00
+----
+
+####
+O desvio padrão das notas da turma é: 1.41
+####
+
+----
+Quantidade de Alunos: 4
+
+- Aluno 0 - nota: 2.00
+- Aluno 1 - nota: 2.00
+- Aluno 2 - nota: 5.00
+- Aluno 3 - nota: 2.00
+----
+
+####
+O desvio padrão das notas da turma é: 1.30
+####
+
+----
+Quantidade de Alunos: 6
+
+- Aluno 0 - nota: 2.00
+- Aluno 1 - nota: 2.00
+- Aluno 2 - nota: 5.00
+- Aluno 3 - nota: 2.00
+- Aluno 4 - nota: 3.00
+- Aluno 5 - nota: 4.00
+----
+
+####
+O desvio padrão das notas da turma é: 1.15
+####
+

@@ -11,7 +11,7 @@ struct data{
     float distanciaEuclideanaTreinoVsAmostra;
 };
 
-struct dadoResumido{
+struct dadoFiltrado{
     int index;
     float d;
 };
@@ -32,7 +32,7 @@ int RetornaIndexPorLista(int qtd, float valorComparacao, struct data *dados, int
 
 int retornaAprovacaoPeloIndex(int qtd, struct data *dados, int index);
 
-void Sort(int qtd, struct dadoResumido *dado);
+void Sort(int qtd, struct dadoFiltrado *dado);
 
 float calculaDistanciaEuclideanaListaDeVetores(int qtdPontos, float *p, float *q);
 
@@ -124,11 +124,11 @@ int classificacao(int qtdTreino, int k, struct data *dadosTreino, struct data da
     }
     
     int qtdFiltrados = 0;
-    int *lstIndexFiltrados = (int *)calloc(qtdTreino, sizeof(int));
-    struct dadoResumido *filtrado = (struct dadoResumido*) calloc(qtdTreino, sizeof(struct dadoResumido));
+    int *lstIndexFiltrados = (int *)calloc(k, sizeof(int));
+    struct dadoFiltrado *filtrado = (struct dadoFiltrado*) calloc(k, sizeof(struct dadoFiltrado));
 
     float auxMenorValorDistanciaEuclideana = DBL_MAX;
-    for(int i=0; i<qtdTreino; i++){
+    for(int i=0; i<k; i++){
         int index = RetornaIndexPorLista(qtdTreino, auxMenorValorDistanciaEuclideana, dadosTreino, qtdFiltrados, lstIndexFiltrados);
         auxMenorValorDistanciaEuclideana = retornaValorDistanciaEuclideanaPeloIndex(qtdTreino, dadosTreino, index);
         lstIndexFiltrados[i] = index;
@@ -137,18 +137,17 @@ int classificacao(int qtdTreino, int k, struct data *dadosTreino, struct data da
         qtdFiltrados++;
     }
     
-    printf("antes:\n");
-    for(int i=0; i<qtdTreino; i++){
-        printf("d: %f j: %d \n", filtrado[i].d, filtrado[i].index);
-    }
+    //for(int i=0; i<k; i++){
+    //    printf("index: %d; d: %f\n", filtrado[i].index, filtrado[i].d);
+    //}
 
     //bubble Sorting
     Sort(k, filtrado);
-
-    printf("depois:\n");
-    for(int i=0; i<qtdTreino; i++){
-        printf("d: %f j: %d \n", filtrado[i].d, filtrado[i].index);
-    }
+    //printf("\n-----------------------------SORT------------------------\n");
+    //
+    //for(int i=0; i<k; i++){
+    //    printf("index: %d; d: %f\n", filtrado[i].index, filtrado[i].d);
+    //}
 
     free(lstIndexFiltrados);
     lstIndexFiltrados = NULL;
@@ -166,9 +165,6 @@ int classificacao(int qtdTreino, int k, struct data *dadosTreino, struct data da
     free(filtrado);
     filtrado = NULL;
     
-    //printf("----------------Quantidades-------------------\n");
-    //printf("quantidadeAprovado: %d\n", quantidadeAprovado);
-    //printf("quantidadeReprovado: %d\n", quantidadeReprovado);
 
     if(quantidadeAprovado > quantidadeReprovado)
         return 1;
@@ -214,7 +210,7 @@ int retornaAprovacaoPeloIndex(int qtd, struct data *dados, int index){
 }
 
 
-void Sort(int qtd, struct dadoResumido *dado){
+void Sort(int qtd, struct dadoFiltrado *dado){
     //for(int i=0; i<qtd; i++){
     //    printf("index: %d; d: %f\n", dado[i].index, dado[i].d);
     //}
